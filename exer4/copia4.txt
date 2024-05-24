@@ -1,0 +1,15 @@
+public class Copiadevetor{
+
+    public static void main (String args[]) {
+        
+        int [] vetor1 = new int []{15,22,37,48,55};
+        int [] vetorcopia = new int[vetor1.length];
+
+        for (int i = 0; i < vetor1.length; i++) {        
+            vetorcopia[i] = vetor1[i];
+            System.out.println(vetorcopia[i]);
+        }
+
+    }
+
+}
