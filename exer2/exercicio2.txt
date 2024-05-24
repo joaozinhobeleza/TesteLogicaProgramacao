@@ -1,0 +1,14 @@
+public static void maior() {
+        int[] vetor = new int[]{1, 5, 3, 45, 5, 1};
+        Arrays.sort(vetor);
+
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.println("esta oraganizado em ordem crescente: " + Arrays.toString(vetor));
+        }
+    }
+
+    public static void main(String[] args) {
+
+        maior();
+
+    }

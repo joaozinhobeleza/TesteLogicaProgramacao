@@ -1,0 +1,22 @@
+public class Testedemesavetor{
+
+public static void main (String args[]) {
+
+int [] vetor1 = new int []{15,22,37,48,55};
+int somatorio = 0;
+int media;
+
+for (int i = 0; i < vetor1.length; i++) {
+    somatorio = somatorio + vetor1[i];
+    System.out.println(somatorio);
+}
+ 
+media = somatorio / vetor1.length;
+System.out.println(media);
+
+
+
+
+}
+
+}
